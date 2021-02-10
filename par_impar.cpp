@@ -3,11 +3,10 @@
 int main(){
     printf("Holiiiiss, táparo\n");
 
-    int numero; 
+    int numero;
 
     printf("Digite un numerito: ");
     scanf("%d", &numero);
-    
     if (numero % 2 == 0) {
         printf("Taparín, el número es par\n");
         return 0;
